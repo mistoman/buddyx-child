@@ -15,12 +15,53 @@ Updated: 2022-09-10 16:01:04
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: greenyellow;
     
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    
+}
+
+.container {
+    background-color: #006aff;
+    /* background-image: linear-gradient(180deg, #28364A 33%, #1E2939 100%) */
+}
+
+.site {
+    background-color: #4a2828;
 }
 
 .bbp-lead-topic {
     color: brown;
     background-color: red;
     display: none;
+}
+
+#groupbutton-1 button {
+    background-color: #28364A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#groupbutton-1 .button.group-button.leave-group{
+    background-color: #28364A;
+    background: #28364A;
+    border-color: #28364A;
+    color: #28364A;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
 }
