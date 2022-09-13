@@ -24,3 +24,29 @@ add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 
 
 // END ENQUEUE PARENT ACTION
+
+
+
+function print_cc() {
+    ?>
+
+    <p class="footer-cc">Street food Members</p>
+
+    <?php
+}
+add_action( "bp_setup_title", "print_cc" );
+
+function my_append_to_title_hook($value) {
+    return "<div class='post_title_bold'>". "Page:</div>";
+}
+add_filter("bp_setup_title", "my_append_to_title_hook" );
+
+add_filter('wp_title','sweety_page_title',10,1);
+
+function wpdocs_filter_wp_title() {
+
+    return '<h1 class="site-title"><a href="/" rel="home">NAME</a></h1>';
+}
+
+
+add_filter("ln_title", "wpdocs_filter_wp_title" );

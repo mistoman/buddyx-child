@@ -32,6 +32,12 @@ p {
     
 }
 
+.site-header-wrapper {
+    background-color: #28364A !important;
+    box-shadow: none;
+
+}
+
 .site-title a{
     font-family: 'Patrick Hand' !important;
 }
