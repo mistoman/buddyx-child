@@ -11,6 +11,10 @@ Updated: 2022-09-10 16:01:04
 
 */
 
+/* google fonts Patrick Hand */
+@import url(https://fonts.googleapis.com/css?family=Patrick+Hand:400,700);
+
+
 * {
     margin: 0;
     padding: 0;
@@ -18,10 +22,18 @@ Updated: 2022-09-10 16:01:04
     
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Patrick Hand' !important;
+}
+
 p {
     font-family: "Open Sans", sans-serif;
     font-weight: lighter;
     
+}
+
+.site-title a{
+    font-family: 'Patrick Hand' !important;
 }
 
 .container {
@@ -33,10 +45,8 @@ p {
     background-color: #28364A;
 }
 
-.bbp-lead-topic {
-    color: brown;
-    background-color: red;
-    display: none;
+#item-header-avatar img {
+    background-color: black;
 }
 
 #groupbutton-1 button {
