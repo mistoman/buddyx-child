@@ -22,6 +22,10 @@ Updated: 2022-09-10 16:01:04
     
 }
 
+body {
+    background-color: #012B44 !important;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Patrick Hand' !important;
 }
