@@ -33,8 +33,14 @@ p {
     
 }
 
-button .button {
-    background-color: #f05130 !important;
+button {
+    background-color: #f05130  !important;
+    background: #f05130  !important;
+    border-color: #f05130  !important;
+    color: #fff  !important;
+    border: none  !important;
+    font-weight: bold  !important;
+    cursor: pointer  !important;
 }
 
 .site-header-wrapper {
@@ -73,17 +79,7 @@ button .button {
     background-color: #012B44 !important;
 }
 
-#groupbutton-1 button {
-    background-color: #f05130  !important;
-    color: white  !important;
-    border: none  !important;
-    padding: 10px 20px  !important;
-    border-radius: 5px  !important;
-    cursor: pointer  !important;
-    font-size: 16px  !important;
-    font-weight: bold  !important;
-    margin: 10px  !important;
-}
+
 
 #groupbutton-1 .button.group-button.leave-group{
     background-color: #f05130  !important;
@@ -91,10 +87,6 @@ button .button {
     border-color: #f05130  !important;
     color: #fff  !important;
     border: none  !important;
-    padding: 10px  !important;
-    border-radius: 5px  !important;
-    margin: 10px  !important;
-    font-size: 20px  !important;
     font-weight: bold  !important;
     cursor: pointer  !important;
 
