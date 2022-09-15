@@ -29,13 +29,27 @@ h1, h2, h3, h4, h5, h6 {
 p {
     font-family: "Open Sans", sans-serif;
     font-weight: lighter;
+    color: black;
     
 }
 
+button .button {
+    background-color: #f05130 !important;
+}
+
 .site-header-wrapper {
-    background-color: #28364A !important;
+    background-color: #012B44 !important;
     box-shadow: none;
 
+}
+
+.site-title a{
+    color: black !important;
+}
+
+.site-title a:hover{
+    transition: 0.3s;
+    color: #f05130 !important;
 }
 
 .site-title a{
@@ -43,16 +57,20 @@ p {
 }
 
 .container {
-    background-color: #28364A;
+    background-color: #012B44;
     /* background-image: linear-gradient(180deg, #28364A 33%, #1E2939 100%) */
 }
 
 .site {
-    background-color: #28364A;
+    background-color: #012B44;
 }
 
 #item-header-avatar img {
     background-color: black;
+}
+
+.site-info {
+    background-color: #012B44 !important;
 }
 
 #groupbutton-1 button {
@@ -80,4 +98,15 @@ p {
     font-weight: bold;
     cursor: pointer;
 
+}
+
+label {
+    
+    color: black;
+}
+
+legend {
+    color: black;
+    font-size: 20px !important;
+    font-weight: bold !important;
 }
